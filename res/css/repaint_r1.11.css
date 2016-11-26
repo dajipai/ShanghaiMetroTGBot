@@ -1,0 +1,81 @@
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY {
+	FONT: small arial,helvetica,clean,sans-serif
+}
+#doc {
+	MARGIN: auto; WIDTH: 56.3em; TEXT-ALIGN: left; min-width: 670px
+}
+DIV.mod {
+	MARGIN-TOP: -1px; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_l.gif) repeat-y left top; MARGIN-BOTTOM: 3px; POSITION: relative
+}
+DIV.mod DIV.bd DIV.content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/mgrad.gif) repeat-x left bottom; PADDING-BOTTOM: 4px; MARGIN: 0px 4px; PADDING-TOP: 1px; ZOOM: 1
+}
+DIV.mod DIV.hd B {
+	DISPLAY: block; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_tl.gif) no-repeat left top; MARGIN-BOTTOM: -15px; WIDTH: 9px; LINE-HEIGHT: 0.01em; POSITION: relative; HEIGHT: 9px
+}
+DIV.mod DIV.ft B {
+	DISPLAY: block; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_tl.gif) no-repeat left top; MARGIN-BOTTOM: -15px; WIDTH: 9px; LINE-HEIGHT: 0.01em; POSITION: relative; HEIGHT: 9px
+}
+DIV.mod DIV.hd B.l {
+	FLOAT: left; BACKGROUND-IMAGE: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_tl2.gif)
+}
+DIV.mod DIV.hd B.r {
+	FLOAT: right; BACKGROUND-IMAGE: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_tr2.gif)
+}
+DIV.mod DIV.ft B.l {
+	FLOAT: left; BACKGROUND-IMAGE: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_bl2.gif)
+}
+DIV.mod DIV.ft B.r {
+	FLOAT: right; BACKGROUND-IMAGE: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_br2.gif)
+}
+DIV.mod DIV.hd:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+DIV.mod DIV.ft:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+DIV.mod DIV.bd:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+DIV.mod DIV.hd {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: none; MARGIN: 0px; OVERFLOW: visible; ZOOM: 1; HEIGHT: auto
+}
+DIV.mod DIV.ft {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: none; MARGIN: 0px; OVERFLOW: visible; ZOOM: 1; HEIGHT: auto
+}
+DIV.mod DIV.bd {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: none; MARGIN: 0px; OVERFLOW: visible; ZOOM: 1; HEIGHT: auto
+}
+DIV.mod DIV.hd {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 9px
+}
+DIV.mod DIV.ft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 9px
+}
+DIV.mod DIV.hd {
+	BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_t.gif) repeat-x left top
+}
+DIV.mod DIV.ft {
+	BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_b.gif) repeat-x left bottom
+}
+DIV.mod DIV.bd {
+	BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/css/img/g_r.gif) repeat-y right top
+}
+DIV.mod#collection_0 {
+	MARGIN-TOP: 0px
+}

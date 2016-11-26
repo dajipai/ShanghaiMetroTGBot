@@ -1,0 +1,165 @@
+/* CSS Document */
+
+.dtk-carousel {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 0px; WIDTH: 668px; PADDING-TOP: 0px; POSITION: relative; height:260px; overflow:hidden;
+}
+.dtk-carousel H2 {
+	FONT-WEIGHT: lighter; FONT-SIZE: 14px; MARGIN: 5px 10px 5px 4px; COLOR: #fff
+}
+.dtk-carousel H2 A {
+	FONT-SIZE: 14px; COLOR: #fff
+}
+.dtk-carousel H2 A:visited {
+	FONT-SIZE: 14px; COLOR: #244075
+}
+.dtk-carousel H2 A:hover {
+	FONT-SIZE: 14px; COLOR: #244075
+}
+.dtk-carousel A.prev SPAN {
+	DISPLAY: none
+}
+.dtk-carousel A.next SPAN {
+	DISPLAY: none
+}
+.dtk-carousel A.prev {
+	DISPLAY: inline; RIGHT: 30px; BACKGROUND: url(../images/temp/jiantou.jpg) no-repeat; OVERFLOW: hidden; WIDTH: 31px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 22px;
+	}
+.dtk-carousel .prev:hover{ BACKGROUND: url(../images/temp/leftjian.png) no-repeat left; }
+.dtk-carousel A.next {
+	DISPLAY: inline; RIGHT: 30px; BACKGROUND: url(../images/temp/jiantou.jpg) no-repeat; OVERFLOW: hidden; WIDTH: 31px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 22px
+}
+.dtk-carousel A.next {
+	BACKGROUND-POSITION: -31px 0px; RIGHT: 0px; WIDTH: 30px
+}
+
+
+.dtk-carousel .next:hover{ BACKGROUND: url(../images/temp/rightjian.png) no-repeat left;}
+A.off {
+	CURSOR: default! important
+}
+.dtk-carousel .scrollnav {
+	RIGHT: 75px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 12px
+}
+.dtk-carousel .scrollnav A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(../images/temp/jiantou.jpg) no-repeat -11px -23px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 1px; OVERFLOW: hidden; WIDTH: 9px; TEXT-INDENT: -100px; PADDING-TOP: 0px; HEIGHT: 9px
+}
+.dtk-carousel .scrollnav A.current {
+	BACKGROUND-POSITION: 0px -23px; CURSOR: default
+}
+.dtk-carousel .ft A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 5px; FONT: bold 85% arial; COLOR: #009dd9; PADDING-TOP: 5px; BACKGROUND-COLOR: #eaeaea; TEXT-DECORATION: none
+}
+.dtk-carousel DIV.scrollbody {
+	DISPLAY: inline; FLOAT: left; MARGIN: 10px 0px 0px 5px; OVERFLOW: hidden; WIDTH: 661px
+}
+.dtk-carousel DIV.scrollpages {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 1000em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.dtk-list {
+	DISPLAY: inline; FLOAT: left; WIDTH: 678px
+}
+.scrollpage {
+	DISPLAY: inline; FLOAT: left; WIDTH: 678px
+}
+UL.dtk-list LI.dtk-item {
+	DISPLAY: inline; FLOAT: left
+}
+UL.dtk-list LI.dtk-item .dtk-center {
+	TEXT-ALIGN: center
+}
+UL.dtk-list LI.dtk-item .dtk-right {
+	TEXT-ALIGN: right
+}
+UL.dtk-list LI.dtk-item H3 {
+	FONT-SIZE: 85%; FONT-FAMILY: gotham, verdana, arial
+}
+UL.dtk-list LI.dtk-item P {
+	FONT-SIZE: 85%; COLOR: #484848
+}
+.dtk-carousel:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.dtk-carousel .scrollpages:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.dtk-carousel H2:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.dtk-carousel UL.scrollnav:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.dtk-carousel {
+	ZOOM: 1
+}
+.dtk-carousel .scrollpages {
+	ZOOM: 1
+}
+.dtk-carousel H2 {
+	ZOOM: 1
+}
+.dtk-carousel UL.scrollnav {
+	ZOOM: 1
+}
+DIV.moreinfo {
+	MARGIN-TOP: 20px
+}
+UL.dtk-list LI.dtk-item A.title {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #244075
+}
+UL.dtk-list LI.dtk-item A.more {
+	DISPLAY: block; FONT-SIZE: 100%; COLOR: #a80530
+}
+.double IMG {
+	OVERFLOW: hidden; WIDTH: 188px; HEIGHT: 103px
+}
+.double UL.dtk-list LI.dtk-item {
+	WIDTH: 188px; MARGIN-RIGHT: 12px
+}
+.double LI.dtk-item A.img {
+	BORDER-RIGHT: #a4a5b7 2px solid; BORDER-TOP: #a4a5b7 2px solid; DISPLAY: block; MARGIN-BOTTOM: 5px; BORDER-LEFT: #a4a5b7 2px solid; WIDTH: 188px; BORDER-BOTTOM: #a4a5b7 2px solid; HEIGHT: 123px
+}
+UL.dtk-list LI.dtk-item A.img:hover {
+	BORDER-RIGHT: #254075 2px solid; BORDER-TOP: #254075 2px solid; BORDER-LEFT: #254075 2px solid; BORDER-BOTTOM: #254075 2px solid
+}
+.quadruple IMG {
+	OVERFLOW: hidden; WIDTH: 90px; HEIGHT: 120px
+}
+.quadruple LI.dtk-item A.img {
+	BORDER-RIGHT: #a4a5b7 2px solid; BORDER-TOP: #a4a5b7 2px solid; DISPLAY: block; MARGIN-BOTTOM: 5px; BORDER-LEFT: #a4a5b7 2px solid; WIDTH: 90px; BORDER-BOTTOM: #a4a5b7 2px solid; HEIGHT: 120px
+}
+.quadruple UL.dtk-list LI.dtk-item {
+	WIDTH: 90px; MARGIN-RIGHT: 15px
+}
+H2.collectionsubhdr {
+	MARGIN: -5px 0px 0px 4px
+}
+H2.collectionsubhdr A {
+	COLOR: #254075
+}
+H2.collectionsubhdr A:hover {
+	COLOR: #254075
+}
+A.tocollectionl {
+	FONT-SIZE: 85%; Z-INDEX: 999; MARGIN-LEFT: 4px; COLOR: #aa0530; BOTTOM: -5px
+}
+A.tocollectionl:hover {
+	FONT-SIZE: 85%; Z-INDEX: 999; MARGIN-LEFT: 4px; COLOR: #aa0530; BOTTOM: -5px
+}
+A.tocollectionl:visited {
+	FONT-SIZE: 85%; Z-INDEX: 999; MARGIN-LEFT: 4px; COLOR: #aa0530; BOTTOM: -5px
+}
+DIV.mod DIV.content {
+	POSITION: relative
+}
+DIV.tocollectionr {
+	CLEAR: left; Z-INDEX: 999; RIGHT: 0px; BOTTOM: -4px; POSITION: absolute; TEXT-ALIGN: right
+}
+DIV.tocollectionr A {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 9px; FONT-SIZE: 85%; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/img/modtbo_chev.gif) #eaeaea no-repeat 96% center; FLOAT: right; PADDING-BOTTOM: 5px; COLOR: #244075; PADDING-TOP: 4px
+}
+DIV.tocollectionr A:hover {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 9px; FONT-SIZE: 85%; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/img/modtbo_chev.gif) #eaeaea no-repeat 96% center; FLOAT: right; PADDING-BOTTOM: 5px; COLOR: #244075; PADDING-TOP: 4px
+}
+DIV.tocollectionr A:visited {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 9px; FONT-SIZE: 85%; BACKGROUND: url(http://cn.yimg.com/sp/ys/hp/0702/img/modtbo_chev.gif) #eaeaea no-repeat 96% center; FLOAT: right; PADDING-BOTTOM: 5px; COLOR: #244075; PADDING-TOP: 4px
+}
