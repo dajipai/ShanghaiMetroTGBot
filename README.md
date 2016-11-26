@@ -1,5 +1,9 @@
 # Shanghai Metro Telegram Bot
 
+A telegram bot to search for Shanghai Metro infos, timetables and stations.
+
+----
+
 # Plan One - Web
 
 * poor html + js + css
