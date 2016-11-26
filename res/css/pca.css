@@ -1,0 +1,264 @@
+
+/*线的样式*/
+.station_start1{ float:left; width:100%; background:url(/skin/images/linecheng/1.png) no-repeat left  top;background-position:85px 12px   }
+.station_start2{ float:left; width:100%; background:url(/skin/images/linecheng/2.png) no-repeat left  top;background-position:85px 12px }
+.station_start3{ float:left; width:100%; background:url(/skin/images/linecheng/3.png) no-repeat left  top;background-position:85px 12px  }
+.station_start4{ float:left; width:100%; background:url(/skin/images/linecheng/4.png) no-repeat left  top;background-position:85px 12px }
+.station_start5{ float:left; width:100%; background:url(/skin/images/linecheng/5.png) no-repeat left  top;background-position:85px 12px   }
+.station_start6{ float:left; width:100%; background:url(/skin/images/linecheng/6.png) no-repeat left  top;background-position:85px 12px }
+.station_start7{ float:left; width:100%; background:url(/skin/images/linecheng/7.png) no-repeat left  top;background-position:85px 12px  }
+.station_start8{ float:left; width:100%; background:url(/skin/images/linecheng/8.png) no-repeat left  top;background-position:85px 12px }
+.station_start9{ float:left; width:100%; background:url(/skin/images/linecheng/9.png) no-repeat left  top;background-position:85px 12px }
+.station_start10{ float:left; width:100%; background:url(/skin/images/linecheng/10.png) no-repeat left  top;background-position:85px 12px }
+.station_start11{ float:left; width:100%; background:url(/skin/images/linecheng/11.png) no-repeat left  top;background-position:85px 12px }
+.station_start12{ float:left; width:100%; background:url(/skin/images/linecheng/12.png) no-repeat left  top;background-position:85px 12px }
+.station_start13{ float:left; width:100%; background:url(/skin/images/linecheng/13.png) no-repeat left  top;background-position:85px 12px }
+.station_start16{ float:left; width:100%; background:url(/skin/images/linecheng/16.png) no-repeat left  top;background-position:85px 12px }
+/*结束线的样式*/
+
+/*展开效果小圈所有线路的样式*/
+.linesmall-1{ float:left; width:100%; background:url(/skin/images/smallcril/1.png) no-repeat left  top;background-position:82px 2px   }
+.linesmall-2{ float:left; width:100%; background:url(/skin/images/smallcril/2.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-3{ float:left; width:100%; background:url(/skin/images/smallcril/3.png) no-repeat left  top;background-position:82px 2px  }
+.linesmall-4{ float:left; width:100%; background:url(/skin/images/smallcril/4.png) no-repeat left  top;background-position:82px 0px }
+.linesmall-5{ float:left; width:100%; background:url(/skin/images/smallcril/5.png) no-repeat left  top;background-position:82px 2px   }
+.linesmall-6{ float:left; width:100%; background:url(/skin/images/smallcril/6.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-7{ float:left; width:100%; background:url(/skin/images/smallcril/7.png) no-repeat left  top;background-position:82px 2px  }
+.linesmall-8{ float:left; width:100%; background:url(/skin/images/smallcril/8.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-9{ float:left; width:100%; background:url(/skin/images/smallcril/9.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-10{ float:left; width:100%; background:url(/skin/images/smallcril/10.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-11{ float:left; width:100%; background:url(/skin/images/smallcril/11.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-12{ float:left; width:100%; background:url(/skin/images/smallcril/12.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-13{ float:left; width:100%; background:url(/skin/images/smallcril/13.png) no-repeat left  top;background-position:82px 2px }
+.linesmall-16{ float:left; width:100%; background:url(/skin/images/smallcril/16.png) no-repeat left  top;background-position:82px 2px }
+/*结束展开效果小圈所有线路的样式*/
+
+/*展开效果大圈所有线路的样式*/
+.wline1{ float:left;width:100%;background:url(/skin/images/bigcril/1.png) no-repeat left top; background-position:80px 0px}
+.wline2{ float:left;width:100%;background:url(/skin/images/bigcril/2.png) no-repeat left top; background-position:80px 0px}
+.wline3{ float:left;width:100%;background:url(/skin/images/bigcril/3.png) no-repeat left top; background-position:80px 0px}
+.wline4{ float:left;width:100%;background:url(/skin/images/bigcril/4.png) no-repeat left top; background-position:80px 0px}
+.wline5{ float:left;width:100%;background:url(/skin/images/bigcril/5.png) no-repeat left top; background-position:80px 0px}
+.wline6{ float:left;width:100%;background:url(/skin/images/bigcril/6.png) no-repeat left top; background-position:80px 0px}
+.wline7{ float:left;width:100%;background:url(/skin/images/bigcril/7.png) no-repeat left top; background-position:80px 0px}
+.wline8{ float:left;width:100%;background:url(/skin/images/bigcril/8.png) no-repeat left top; background-position:80px 0px}
+.wline9{ float:left;width:100%;background:url(/skin/images/bigcril/9.png) no-repeat left top; background-position:80px 0px}
+.wline10{ float:left;width:100%;background:url(/skin/images/bigcril/10.png) no-repeat left top; background-position:80px 0px}
+.wline11{ float:left;width:100%;background:url(/skin/images/bigcril/11.png) no-repeat left top; background-position:80px 0px}
+.wline12{ float:left;width:100%;background:url(/skin/images/bigcril/12.png) no-repeat left top; background-position:80px 0px}
+.wline13{ float:left;width:100%;background:url(/skin/images/bigcril/13.png) no-repeat left top; background-position:80px 0px}
+.wline16{ float:left;width:100%;background:url(/skin/images/bigcril/16.png) no-repeat left top; background-position:80px 0px} 
+/*结束展开效果大圈所有线路的样式*/
+
+/*换乘所有线路大圈的样式*/
+.wline1-1{ float:left;width:100%;background:url(/skin/images/bigcril/1-1.png) no-repeat left top; background-position:80px 0px}
+.wline1-2{ float:left;width:100%;background:url(/skin/images/bigcril/1-2.png) no-repeat left top; background-position:80px 0px}
+.wline1-3{ float:left;width:100%;background:url(/skin/images/bigcril/1-3.png) no-repeat left top; background-position:80px 0px}
+.wline1-4{ float:left;width:100%;background:url(/skin/images/bigcril/1-4.png) no-repeat left top; background-position:80px 0px}
+.wline1-5{ float:left;width:100%;background:url(/skin/images/bigcril/1-5.png) no-repeat left top; background-position:80px 0px}
+.wline1-6{ float:left;width:100%;background:url(/skin/images/bigcril/1-6.png) no-repeat left top; background-position:80px 0px}
+.wline1-7{ float:left;width:100%;background:url(/skin/images/bigcril/1-7.png) no-repeat left top; background-position:80px 0px}
+.wline1-8{ float:left;width:100%;background:url(/skin/images/bigcril/1-8.png) no-repeat left top; background-position:80px 0px}
+.wline1-9{ float:left;width:100%;background:url(/skin/images/bigcril/1-9.png) no-repeat left top; background-position:80px 0px}
+.wline1-10{ float:left;width:100%;background:url(/skin/images/bigcril/1-10.png) no-repeat left top; background-position:80px 0px}
+.wline1-11{ float:left;width:100%;background:url(/skin/images/bigcril/1-11.png) no-repeat left top; background-position:80px 0px}
+.wline1-12{ float:left;width:100%;background:url(/skin/images/bigcril/1-12.png) no-repeat left top; background-position:80px 0px}
+.wline1-13{ float:left;width:100%;background:url(/skin/images/bigcril/1-13.png) no-repeat left top; background-position:80px 0px}
+.wline1-16{ float:left;width:100%;background:url(/skin/images/bigcril/1-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline2-1{ float:left;width:100%;background:url(/skin/images/bigcril/2-1.png) no-repeat left top; background-position:80px 0px}
+.wline2-2{ float:left;width:100%;background:url(/skin/images/bigcril/2-2.png) no-repeat left top; background-position:80px 0px}
+.wline2-3{ float:left;width:100%;background:url(/skin/images/bigcril/2-3.png) no-repeat left top; background-position:80px 0px}
+.wline2-4{ float:left;width:100%;background:url(/skin/images/bigcril/2-4.png) no-repeat left top; background-position:80px 0px}
+.wline2-5{ float:left;width:100%;background:url(/skin/images/bigcril/2-5.png) no-repeat left top; background-position:80px 0px}
+.wline2-6{ float:left;width:100%;background:url(/skin/images/bigcril/2-6.png) no-repeat left top; background-position:80px 0px}
+.wline2-7{ float:left;width:100%;background:url(/skin/images/bigcril/2-7.png) no-repeat left top; background-position:80px 0px}
+.wline2-8{ float:left;width:100%;background:url(/skin/images/bigcril/2-8.png) no-repeat left top; background-position:80px 0px}
+.wline2-9{ float:left;width:100%;background:url(/skin/images/bigcril/2-9.png) no-repeat left top; background-position:80px 0px}
+.wline2-10{ float:left;width:100%;background:url(/skin/images/bigcril/2-10.png) no-repeat left top; background-position:80px 0px}
+.wline2-11{ float:left;width:100%;background:url(/skin/images/bigcril/2-11.png) no-repeat left top; background-position:80px 0px}
+.wline2-12{ float:left;width:100%;background:url(/skin/images/bigcril/2-12.png) no-repeat left top; background-position:80px 0px}
+.wline2-13{ float:left;width:100%;background:url(/skin/images/bigcril/2-13.png) no-repeat left top; background-position:80px 0px}
+.wline2-16{ float:left;width:100%;background:url(/skin/images/bigcril/2-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline3-1{ float:left;width:100%;background:url(/skin/images/bigcril/3-1.png) no-repeat left top; background-position:80px 0px}
+.wline3-2{ float:left;width:100%;background:url(/skin/images/bigcril/3-2.png) no-repeat left top; background-position:80px 0px}
+.wline3-3{ float:left;width:100%;background:url(/skin/images/bigcril/3-3.png) no-repeat left top; background-position:80px 0px}
+.wline3-4{ float:left;width:100%;background:url(/skin/images/bigcril/3-4.png) no-repeat left top; background-position:80px 0px}
+.wline3-5{ float:left;width:100%;background:url(/skin/images/bigcril/3-5.png) no-repeat left top; background-position:80px 0px}
+.wline3-6{ float:left;width:100%;background:url(/skin/images/bigcril/3-6.png) no-repeat left top; background-position:80px 0px}
+.wline3-7{ float:left;width:100%;background:url(/skin/images/bigcril/3-7.png) no-repeat left top; background-position:80px 0px}
+.wline3-8{ float:left;width:100%;background:url(/skin/images/bigcril/3-8.png) no-repeat left top; background-position:80px 0px}
+.wline3-9{ float:left;width:100%;background:url(/skin/images/bigcril/3-9.png) no-repeat left top; background-position:80px 0px}
+.wline3-10{ float:left;width:100%;background:url(/skin/images/bigcril/3-10.png) no-repeat left top; background-position:80px 0px}
+.wline3-11{ float:left;width:100%;background:url(/skin/images/bigcril/3-11.png) no-repeat left top; background-position:80px 0px}
+.wline3-12{ float:left;width:100%;background:url(/skin/images/bigcril/3-12.png) no-repeat left top; background-position:80px 0px}
+.wline3-13{ float:left;width:100%;background:url(/skin/images/bigcril/3-13.png) no-repeat left top; background-position:80px 0px}
+.wline3-16{ float:left;width:100%;background:url(/skin/images/bigcril/3-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline4-1{ float:left;width:100%;background:url(/skin/images/bigcril/4-1.png) no-repeat left top; background-position:80px 0px}
+.wline4-2{ float:left;width:100%;background:url(/skin/images/bigcril/4-2.png) no-repeat left top; background-position:80px 0px}
+.wline4-3{ float:left;width:100%;background:url(/skin/images/bigcril/4-3.png) no-repeat left top; background-position:80px 0px}
+.wline4-4{ float:left;width:100%;background:url(/skin/images/bigcril/4-4.png) no-repeat left top; background-position:80px 0px}
+.wline4-5{ float:left;width:100%;background:url(/skin/images/bigcril/4-5.png) no-repeat left top; background-position:80px 0px}
+.wline4-6{ float:left;width:100%;background:url(/skin/images/bigcril/4-6.png) no-repeat left top; background-position:80px 0px}
+.wline4-7{ float:left;width:100%;background:url(/skin/images/bigcril/4-7.png) no-repeat left top; background-position:80px 0px}
+.wline4-8{ float:left;width:100%;background:url(/skin/images/bigcril/4-8.png) no-repeat left top; background-position:80px 0px}
+.wline4-9{ float:left;width:100%;background:url(/skin/images/bigcril/4-9.png) no-repeat left top; background-position:80px 0px}
+.wline4-10{ float:left;width:100%;background:url(/skin/images/bigcril/4-10.png) no-repeat left top; background-position:80px 0px}
+.wline4-11{ float:left;width:100%;background:url(/skin/images/bigcril/4-11.png) no-repeat left top; background-position:80px 0px}
+.wline4-12{ float:left;width:100%;background:url(/skin/images/bigcril/4-12.png) no-repeat left top; background-position:80px 0px}
+.wline4-13{ float:left;width:100%;background:url(/skin/images/bigcril/4-13.png) no-repeat left top; background-position:80px 0px}
+.wline4-16{ float:left;width:100%;background:url(/skin/images/bigcril/4-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline5-1{ float:left;width:100%;background:url(/skin/images/bigcril/5-1.png) no-repeat left top; background-position:80px 0px}
+.wline5-2{ float:left;width:100%;background:url(/skin/images/bigcril/5-2.png) no-repeat left top; background-position:80px 0px}
+.wline5-3{ float:left;width:100%;background:url(/skin/images/bigcril/5-3.png) no-repeat left top; background-position:80px 0px}
+.wline5-4{ float:left;width:100%;background:url(/skin/images/bigcril/5-4.png) no-repeat left top; background-position:80px 0px}
+.wline5-5{ float:left;width:100%;background:url(/skin/images/bigcril/5-5.png) no-repeat left top; background-position:80px 0px}
+.wline5-6{ float:left;width:100%;background:url(/skin/images/bigcril/5-6.png) no-repeat left top; background-position:80px 0px}
+.wline5-7{ float:left;width:100%;background:url(/skin/images/bigcril/5-7.png) no-repeat left top; background-position:80px 0px}
+.wline5-8{ float:left;width:100%;background:url(/skin/images/bigcril/5-8.png) no-repeat left top; background-position:80px 0px}
+.wline5-9{ float:left;width:100%;background:url(/skin/images/bigcril/5-9.png) no-repeat left top; background-position:80px 0px}
+.wline5-10{ float:left;width:100%;background:url(/skin/images/bigcril/5-10.png) no-repeat left top; background-position:80px 0px}
+.wline5-11{ float:left;width:100%;background:url(/skin/images/bigcril/5-11.png) no-repeat left top; background-position:80px 0px}
+.wline5-12{ float:left;width:100%;background:url(/skin/images/bigcril/5-12.png) no-repeat left top; background-position:80px 0px}
+.wline5-13{ float:left;width:100%;background:url(/skin/images/bigcril/5-13.png) no-repeat left top; background-position:80px 0px}
+.wline5-16{ float:left;width:100%;background:url(/skin/images/bigcril/5-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline6-1{ float:left;width:100%;background:url(/skin/images/bigcril/6-1.png) no-repeat left top; background-position:80px 0px}
+.wline6-2{ float:left;width:100%;background:url(/skin/images/bigcril/6-2.png) no-repeat left top; background-position:80px 0px}
+.wline6-3{ float:left;width:100%;background:url(/skin/images/bigcril/6-3.png) no-repeat left top; background-position:80px 0px}
+.wline6-4{ float:left;width:100%;background:url(/skin/images/bigcril/6-4.png) no-repeat left top; background-position:80px 0px}
+.wline6-5{ float:left;width:100%;background:url(/skin/images/bigcril/6-5.png) no-repeat left top; background-position:80px 0px}
+.wline6-6{ float:left;width:100%;background:url(/skin/images/bigcril/6-6.png) no-repeat left top; background-position:80px 0px}
+.wline6-7{ float:left;width:100%;background:url(/skin/images/bigcril/6-7.png) no-repeat left top; background-position:80px 0px}
+.wline6-8{ float:left;width:100%;background:url(/skin/images/bigcril/6-8.png) no-repeat left top; background-position:80px 0px}
+.wline6-9{ float:left;width:100%;background:url(/skin/images/bigcril/6-9.png) no-repeat left top; background-position:80px 0px}
+.wline6-10{ float:left;width:100%;background:url(/skin/images/bigcril/6-10.png) no-repeat left top; background-position:80px 0px}
+.wline6-11{ float:left;width:100%;background:url(/skin/images/bigcril/6-11.png) no-repeat left top; background-position:80px 0px}
+.wline6-12{ float:left;width:100%;background:url(/skin/images/bigcril/6-12.png) no-repeat left top; background-position:80px 0px}
+.wline6-13{ float:left;width:100%;background:url(/skin/images/bigcril/6-13.png) no-repeat left top; background-position:80px 0px}
+.wline6-16{ float:left;width:100%;background:url(/skin/images/bigcril/6-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline7-1{ float:left;width:100%;background:url(/skin/images/bigcril/7-1.png) no-repeat left top; background-position:80px 0px}
+.wline7-2{ float:left;width:100%;background:url(/skin/images/bigcril/7-2.png) no-repeat left top; background-position:80px 0px}
+.wline7-3{ float:left;width:100%;background:url(/skin/images/bigcril/7-3.png) no-repeat left top; background-position:80px 0px}
+.wline7-4{ float:left;width:100%;background:url(/skin/images/bigcril/7-4.png) no-repeat left top; background-position:80px 0px}
+.wline7-5{ float:left;width:100%;background:url(/skin/images/bigcril/7-5.png) no-repeat left top; background-position:80px 0px}
+.wline7-6{ float:left;width:100%;background:url(/skin/images/bigcril/7-6.png) no-repeat left top; background-position:80px 0px}
+.wline7-7{ float:left;width:100%;background:url(/skin/images/bigcril/7-7.png) no-repeat left top; background-position:80px 0px}
+.wline7-8{ float:left;width:100%;background:url(/skin/images/bigcril/7-8.png) no-repeat left top; background-position:80px 0px}
+.wline7-9{ float:left;width:100%;background:url(/skin/images/bigcril/7-9.png) no-repeat left top; background-position:80px 0px}
+.wline7-10{ float:left;width:100%;background:url(/skin/images/bigcril/7-10.png) no-repeat left top; background-position:80px 0px}
+.wline7-11{ float:left;width:100%;background:url(/skin/images/bigcril/7-11.png) no-repeat left top; background-position:80px 0px}
+.wline7-12{ float:left;width:100%;background:url(/skin/images/bigcril/7-12.png) no-repeat left top; background-position:80px 0px}
+.wline7-13{ float:left;width:100%;background:url(/skin/images/bigcril/7-13.png) no-repeat left top; background-position:80px 0px}
+.wline7-16{ float:left;width:100%;background:url(/skin/images/bigcril/7-16.png) no-repeat left top; background-position:80px 0px}
+
+
+.wline8-1{ float:left;width:100%;background:url(/skin/images/bigcril/8-1.png) no-repeat left top; background-position:80px 0px}
+.wline8-2{ float:left;width:100%;background:url(/skin/images/bigcril/8-2.png) no-repeat left top; background-position:80px 0px}
+.wline8-3{ float:left;width:100%;background:url(/skin/images/bigcril/8-3.png) no-repeat left top; background-position:80px 0px}
+.wline8-4{ float:left;width:100%;background:url(/skin/images/bigcril/8-4.png) no-repeat left top; background-position:80px 0px}
+.wline8-5{ float:left;width:100%;background:url(/skin/images/bigcril/8-5.png) no-repeat left top; background-position:80px 0px}
+.wline8-6{ float:left;width:100%;background:url(/skin/images/bigcril/8-6.png) no-repeat left top; background-position:80px 0px}
+.wline8-7{ float:left;width:100%;background:url(/skin/images/bigcril/8-7.png) no-repeat left top; background-position:80px 0px}
+.wline8-8{ float:left;width:100%;background:url(/skin/images/bigcril/8-8.png) no-repeat left top; background-position:80px 0px}
+.wline8-9{ float:left;width:100%;background:url(/skin/images/bigcril/8-9.png) no-repeat left top; background-position:80px 0px}
+.wline8-10{ float:left;width:100%;background:url(/skin/images/bigcril/8-10.png) no-repeat left top; background-position:80px 0px}
+.wline8-11{ float:left;width:100%;background:url(/skin/images/bigcril/8-11.png) no-repeat left top; background-position:80px 0px}
+.wline8-12{ float:left;width:100%;background:url(/skin/images/bigcril/8-12.png) no-repeat left top; background-position:80px 0px}
+.wline8-13{ float:left;width:100%;background:url(/skin/images/bigcril/8-13.png) no-repeat left top; background-position:80px 0px}
+.wline8-16{ float:left;width:100%;background:url(/skin/images/bigcril/8-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline9-1{ float:left;width:100%;background:url(/skin/images/bigcril/9-1.png) no-repeat left top; background-position:80px 0px}
+.wline9-2{ float:left;width:100%;background:url(/skin/images/bigcril/9-2.png) no-repeat left top; background-position:80px 0px}
+.wline9-3{ float:left;width:100%;background:url(/skin/images/bigcril/9-3.png) no-repeat left top; background-position:80px 0px}
+.wline9-4{ float:left;width:100%;background:url(/skin/images/bigcril/9-4.png) no-repeat left top; background-position:80px 0px}
+.wline9-5{ float:left;width:100%;background:url(/skin/images/bigcril/9-5.png) no-repeat left top; background-position:80px 0px}
+.wline9-6{ float:left;width:100%;background:url(/skin/images/bigcril/9-6.png) no-repeat left top; background-position:80px 0px}
+.wline9-7{ float:left;width:100%;background:url(/skin/images/bigcril/9-7.png) no-repeat left top; background-position:80px 0px}
+.wline9-8{ float:left;width:100%;background:url(/skin/images/bigcril/9-8.png) no-repeat left top; background-position:80px 0px}
+.wline9-9{ float:left;width:100%;background:url(/skin/images/bigcril/9-9.png) no-repeat left top; background-position:80px 0px}
+.wline9-10{ float:left;width:100%;background:url(/skin/images/bigcril/9-10.png) no-repeat left top; background-position:80px 0px}
+.wline9-11{ float:left;width:100%;background:url(/skin/images/bigcril/9-11.png) no-repeat left top; background-position:80px 0px}
+.wline9-12{ float:left;width:100%;background:url(/skin/images/bigcril/9-12.png) no-repeat left top; background-position:80px 0px}
+.wline9-13{ float:left;width:100%;background:url(/skin/images/bigcril/9-13.png) no-repeat left top; background-position:80px 0px}
+.wline9-16{ float:left;width:100%;background:url(/skin/images/bigcril/9-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline10-1{ float:left;width:100%;background:url(/skin/images/bigcril/10-1.png) no-repeat left top; background-position:80px 0px}
+.wline10-2{ float:left;width:100%;background:url(/skin/images/bigcril/10-2.png) no-repeat left top; background-position:80px 0px}
+.wline10-3{ float:left;width:100%;background:url(/skin/images/bigcril/10-3.png) no-repeat left top; background-position:80px 0px}
+.wline10-4{ float:left;width:100%;background:url(/skin/images/bigcril/10-4.png) no-repeat left top; background-position:80px 0px}
+.wline10-5{ float:left;width:100%;background:url(/skin/images/bigcril/10-5.png) no-repeat left top; background-position:80px 0px}
+.wline10-6{ float:left;width:100%;background:url(/skin/images/bigcril/10-6.png) no-repeat left top; background-position:80px 0px}
+.wline10-7{ float:left;width:100%;background:url(/skin/images/bigcril/10-7.png) no-repeat left top; background-position:80px 0px}
+.wline10-8{ float:left;width:100%;background:url(/skin/images/bigcril/10-8.png) no-repeat left top; background-position:80px 0px}
+.wline10-9{ float:left;width:100%;background:url(/skin/images/bigcril/10-9.png) no-repeat left top; background-position:80px 0px}
+.wline10-10{ float:left;width:100%;background:url(/skin/images/bigcril/10-10.png) no-repeat left top; background-position:80px 0px}
+.wline10-11{ float:left;width:100%;background:url(/skin/images/bigcril/10-11.png) no-repeat left top; background-position:80px 0px}
+.wline10-12{ float:left;width:100%;background:url(/skin/images/bigcril/10-12.png) no-repeat left top; background-position:80px 0px}
+.wline10-13{ float:left;width:100%;background:url(/skin/images/bigcril/10-13.png) no-repeat left top; background-position:80px 0px}
+.wline10-16{ float:left;width:100%;background:url(/skin/images/bigcril/10-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline11-1{ float:left;width:100%;background:url(/skin/images/bigcril/11-1.png) no-repeat left top; background-position:80px 0px}
+.wline11-2{ float:left;width:100%;background:url(/skin/images/bigcril/11-2.png) no-repeat left top; background-position:80px 0px}
+.wline11-3{ float:left;width:100%;background:url(/skin/images/bigcril/11-3.png) no-repeat left top; background-position:80px 0px}
+.wline11-4{ float:left;width:100%;background:url(/skin/images/bigcril/11-4.png) no-repeat left top; background-position:80px 0px}
+.wline11-5{ float:left;width:100%;background:url(/skin/images/bigcril/11-5.png) no-repeat left top; background-position:80px 0px}
+.wline11-6{ float:left;width:100%;background:url(/skin/images/bigcril/11-6.png) no-repeat left top; background-position:80px 0px}
+.wline11-7{ float:left;width:100%;background:url(/skin/images/bigcril/11-7.png) no-repeat left top; background-position:80px 0px}
+.wline11-8{ float:left;width:100%;background:url(/skin/images/bigcril/11-8.png) no-repeat left top; background-position:80px 0px}
+.wline11-9{ float:left;width:100%;background:url(/skin/images/bigcril/11-9.png) no-repeat left top; background-position:80px 0px}
+.wline11-10{ float:left;width:100%;background:url(/skin/images/bigcril/11-10.png) no-repeat left top; background-position:80px 0px}
+.wline11-11{ float:left;width:100%;background:url(/skin/images/bigcril/11-11.png) no-repeat left top; background-position:80px 0px}
+.wline11-12{ float:left;width:100%;background:url(/skin/images/bigcril/11-12.png) no-repeat left top; background-position:80px 0px}
+.wline11-13{ float:left;width:100%;background:url(/skin/images/bigcril/11-13.png) no-repeat left top; background-position:80px 0px}
+.wline11-16{ float:left;width:100%;background:url(/skin/images/bigcril/11-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline12-1{ float:left;width:100%;background:url(/skin/images/bigcril/12-1.png) no-repeat left top; background-position:80px 0px}
+.wline12-2{ float:left;width:100%;background:url(/skin/images/bigcril/12-2.png) no-repeat left top; background-position:80px 0px}
+.wline12-3{ float:left;width:100%;background:url(/skin/images/bigcril/12-3.png) no-repeat left top; background-position:80px 0px}
+.wline12-4{ float:left;width:100%;background:url(/skin/images/bigcril/12-4.png) no-repeat left top; background-position:80px 0px}
+.wline12-5{ float:left;width:100%;background:url(/skin/images/bigcril/12-5.png) no-repeat left top; background-position:80px 0px}
+.wline12-6{ float:left;width:100%;background:url(/skin/images/bigcril/12-6.png) no-repeat left top; background-position:80px 0px}
+.wline12-7{ float:left;width:100%;background:url(/skin/images/bigcril/12-7.png) no-repeat left top; background-position:80px 0px}
+.wline12-8{ float:left;width:100%;background:url(/skin/images/bigcril/12-8.png) no-repeat left top; background-position:80px 0px}
+.wline12-9{ float:left;width:100%;background:url(/skin/images/bigcril/12-9.png) no-repeat left top; background-position:80px 0px}
+.wline12-10{ float:left;width:100%;background:url(/skin/images/bigcril/12-10.png) no-repeat left top; background-position:80px 0px}
+.wline12-11{ float:left;width:100%;background:url(/skin/images/bigcril/12-11.png) no-repeat left top; background-position:80px 0px}
+.wline12-12{ float:left;width:100%;background:url(/skin/images/bigcril/12-12.png) no-repeat left top; background-position:80px 0px}
+.wline12-13{ float:left;width:100%;background:url(/skin/images/bigcril/12-13.png) no-repeat left top; background-position:80px 0px}
+.wline12-16{ float:left;width:100%;background:url(/skin/images/bigcril/12-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline13-1{ float:left;width:100%;background:url(/skin/images/bigcril/13-1.png) no-repeat left top; background-position:80px 0px}
+.wline13-2{ float:left;width:100%;background:url(/skin/images/bigcril/13-2.png) no-repeat left top; background-position:80px 0px}
+.wline13-3{ float:left;width:100%;background:url(/skin/images/bigcril/13-3.png) no-repeat left top; background-position:80px 0px}
+.wline13-4{ float:left;width:100%;background:url(/skin/images/bigcril/13-4.png) no-repeat left top; background-position:80px 0px}
+.wline13-5{ float:left;width:100%;background:url(/skin/images/bigcril/13-5.png) no-repeat left top; background-position:80px 0px}
+.wline13-6{ float:left;width:100%;background:url(/skin/images/bigcril/13-6.png) no-repeat left top; background-position:80px 0px}
+.wline13-7{ float:left;width:100%;background:url(/skin/images/bigcril/13-7.png) no-repeat left top; background-position:80px 0px}
+.wline13-8{ float:left;width:100%;background:url(/skin/images/bigcril/13-8.png) no-repeat left top; background-position:80px 0px}
+.wline13-9{ float:left;width:100%;background:url(/skin/images/bigcril/13-9.png) no-repeat left top; background-position:80px 0px}
+.wline13-10{ float:left;width:100%;background:url(/skin/images/bigcril/13-10.png) no-repeat left top; background-position:80px 0px}
+.wline13-11{ float:left;width:100%;background:url(/skin/images/bigcril/13-11.png) no-repeat left top; background-position:80px 0px}
+.wline13-12{ float:left;width:100%;background:url(/skin/images/bigcril/13-12.png) no-repeat left top; background-position:80px 0px}
+.wline13-13{ float:left;width:100%;background:url(/skin/images/bigcril/13-13.png) no-repeat left top; background-position:80px 0px}
+.wline13-16{ float:left;width:100%;background:url(/skin/images/bigcril/13-16.png) no-repeat left top; background-position:80px 0px}
+
+.wline16-1{ float:left;width:100%;background:url(/skin/images/bigcril/16-1.png) no-repeat left top; background-position:80px 0px}
+.wline16-2{ float:left;width:100%;background:url(/skin/images/bigcril/16-2.png) no-repeat left top; background-position:80px 0px}
+.wline16-3{ float:left;width:100%;background:url(/skin/images/bigcril/16-3.png) no-repeat left top; background-position:80px 0px}
+.wline16-4{ float:left;width:100%;background:url(/skin/images/bigcril/16-4.png) no-repeat left top; background-position:80px 0px}
+.wline16-5{ float:left;width:100%;background:url(/skin/images/bigcril/16-5.png) no-repeat left top; background-position:80px 0px}
+.wline16-6{ float:left;width:100%;background:url(/skin/images/bigcril/16-6.png) no-repeat left top; background-position:80px 0px}
+.wline16-7{ float:left;width:100%;background:url(/skin/images/bigcril/16-7.png) no-repeat left top; background-position:80px 0px}
+.wline16-8{ float:left;width:100%;background:url(/skin/images/bigcril/16-8.png) no-repeat left top; background-position:80px 0px}
+.wline16-9{ float:left;width:100%;background:url(/skin/images/bigcril/16-9.png) no-repeat left top; background-position:80px 0px}
+.wline16-10{ float:left;width:100%;background:url(/skin/images/bigcril/16-10.png) no-repeat left top; background-position:80px 0px}
+.wline16-11{ float:left;width:100%;background:url(/skin/images/bigcril/16-11.png) no-repeat left top; background-position:80px 0px}
+.wline16-12{ float:left;width:100%;background:url(/skin/images/bigcril/16-12.png) no-repeat left top; background-position:80px 0px}
+.wline16-13{ float:left;width:100%;background:url(/skin/images/bigcril/16-13.png) no-repeat left top; background-position:80px 0px}
+.wline16-16{ float:left;width:100%;background:url(/skin/images/bigcril/16-16.png) no-repeat left top; background-position:80px 0px}
+/*结束换乘所有线路大圈的样式*//

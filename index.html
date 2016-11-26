@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shanghai Metro</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+    <link href="/res/css/tickets_ride.css" type="text/css" rel="stylesheet"></link>
+    <link href="/res/css/repaint_r1.11.css" type="text/css" rel="stylesheet"></link>
+    <link href="/res/css/repaint_r1.12.css" type="text/css" rel="stylesheet"></link>
+    <link href="/res/css/pca.css" type="text/css" rel="stylesheet"></link>
+    <SCRIPT src="/res/css/repaint_r1.3.aaa.js" type=text/javascript>
+    </SCRIPT>
+    <script type="text/javascript" src="/lib/jquery.js"></script>
+    <script type="text/javascript" src="/res/js/my.jquery.plugin.js"></script>
+    <script type="text/javascript" src="/res/js//common.js"></script>
+
+    <script type="text/javascript" src="/res/js//pca.js"></script>
+    <style>
+        .linelu {
+            float: left;
+            width: 80px;
+            text-align: center;
+            margin-right: 40px;
+            font-size: 14px;
+            font-weight: bold;
+            height: 60px;
+            vertical-align: text-top;
+            color: #676767
+        }
+        
+        .rightline {
+            float: left;
+            width: 100%;
+            background: url(/res/images/bg-huanline2.jpg) no-repeat left top;
+        }
+        
+        .linecheng {
+            border-bottom: 1px solid #d0d0d0;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body class="body_style">
+
+    <div class="head-foot">
+
+
+
+        <!-- content start -->
+        <div id="content">
+            <!-- left start -->
+            <div class="left">
+                <div class="left_area">
+                    <div class="left_top">
+                        <div class="left_title"><span>路径与票价查询</span></div>
+
+                    </div>
+                    <!-- 条件 start-->
+                    <div class="ride_search">
+                        <div class="ride_search_top"> <img src="/res/images/title/title_9.png" alt="换乘查询" class="title" /> </div>
+                        <div class="ride_search_form">
+                            <div class="reset"><img id="odchange" src="/res/images/ico/ico_16.png" alt="置换" title="置换" /></div>
+                            <div id="change" class="from_con">
+                                <div id="oo" class="select_item"> <span>起始站:</span>
+                                    <select class="line_select lx"><option>路线</option></select>
+                                    <select class="station_name zd" station="o"><option value="0">请选择</option></select>
+                                    <a href="/i/map1.html" target="_blank"><img src="/res/images/ico/ico_17.png" alt="" /></a>
+                                </div>
+                                <div id="dd" class="select_item"> <span>终点站:</span>
+                                    <select class="line_select lx"><option>路线</option></select>
+                                    <select class="station_name zd" station="d"><option value="0">请选择</option></select>
+                                    <a href="/i/map1.html" target="_blank"><img src="/res/images/ico/ico_17.png" alt="" /></a>
+                                </div>
+                                <div class="condition">
+                                    <div class="radio">
+                                        <span value="0" class="cur">换乘次数最少</span>
+                                        <span value="1">所需时间最短</span>
+                                    </div>
+                                </div>
+                                <div class="tickets_type"><b>选择票的种类:</b>
+                                    <div class="radio">
+                                        <span value="0" class="type_one cur">交通卡</span>
+                                        <span value="1" class="type_two">单程票</span>
+                                    </div>
+                                </div>
+                                <input id="path_change" type="button" class="ride_search_form_sub" value="&nbsp;" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 条件 end-->
+
+                    <div id="search_result" class="search_result">
+                        <div class="search_result_top"><img src="/res/images/title/title_10.png" alt="查询结果" class="title" /></div>
+
+                        <div class="textix">友情提示：<br />乘客持公共交通卡可在出站后30分钟内，在上海火车站站（1号线、3号线），南京西路站（2号线、12号线、13号线），龙华站（11号线、12号线），虹桥2号航站楼站（2号线、10号线）进行一票换乘，享受连续计费；单程票请重新购票。<br />
+                            <span>※ 本查询结果仅供参考，车程及票价请以实际发生为准。</span>
+                        </div>
+
+
+                        <div id="search_result_detial" class="search_result_detial"></div>
+
+                        <div class="path_show_1">
+                            <div class="path_show_box">
+                                <div class="popup">
+                                    <div class="popup_top"><img src="/res/images/ico/ico_23.png" alt="关闭" title="关闭" class="close" /></div>
+                                    <div class="popup_con">
+                                        <div class="map" style="width:850px;height:440px;border:1px solid #d6d6d6;margin: 0 auto;margin-top: 20px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 内容 end -->
+            </div>
+            <!-- left end -->
+
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+                $("#oo").station({
+                    c: getParam('o')
+                });
+                $("#dd").station({
+                    c: getParam('d')
+                });
+                if (getParam('t') == "1") {
+                    $(".tickets_type span").removeClass("cur");
+                    $(".tickets_type span[value*='1']").addClass("cur");
+                }
+
+                $("#odchange").click(function() {
+                    var o = $("#change select[station=o]").val();
+                    var d = $("#change select[station=d]").val();
+                    $("#oo").station({
+                        c: d,
+                        rd: false
+                    });
+                    $("#dd").station({
+                        c: o,
+                        rd: false
+                    });
+                });
+
+                $(".condition span").click(function() {
+                    $(".condition span").removeClass("cur");
+                    $(this).addClass("cur");
+                });
+                $(".tickets_type span").click(function() {
+                    $(".tickets_type span").removeClass("cur");
+                    $(this).addClass("cur");
+                });
+
+                $("#path_change").click(function(event) {
+                    var data = {
+                        "o": $("#change select[station=o]").val(),
+                        "d": $("#change select[station=d]").val(),
+                        "t": $(".tickets_type span[class*='cur']").attr("value")
+                    };
+                    if (data.o == "" || data.o == "0") {
+                        alert("请选择起始站！");
+                        return;
+                    }
+                    if (data.d == "" || data.d == "0") {
+                        alert("请选择终点站！");
+                        return;
+                    }
+                    if (data.o == data.d) {
+                        alert("请选择不同的起始站和终点站！");
+                        return;
+                    }
+                    $("#search_result_detial").html('<div class="tip">数据检索中,请稍后...</div>');
+                    $("#search_result").show().changes({
+                        pm: data,
+                        od: $(".condition span[class*='cur']").attr("value"),
+                        dd: function(th, opts, paths) {
+                            // 输出
+                            var t = '<div class="line_select"><ul id="pc" class="line_select_list"></ul></div>';
+                            t += '<div class="line_detial">';
+                            t += '  <div class="line_detial_top"></div>';
+                            t += '  <div class="line_detial_con">';
+                            t += '    <div class="lin_0">';
+                            t += '      <div class="viewline">' + getStations(data.o) + '<span class="endline"></span>' + getStations(data.d) + '&nbsp;&nbsp;&nbsp;&nbsp;票价<span class="money"><label id="pp"></label></span>元</div>';
+                            t += '      <div id="lines"></div>';
+                            t += '    </div>';
+                            t += '  </div>';
+                            t += '  <div class="line_detial_con_botm"></div>';
+                            t += '</div>';
+
+                            var panel = $(t);
+                            for (var i = 0; i < paths.length; i++) {
+                                var path = paths[i],
+                                    pl = "path_" + (i + 1),
+                                    l = (i + 1);
+
+                                // Count  
+                                panel.find('#pc').append('<li class="pathchoose' + (i == 0 ? ' cur' : '') + '" p="' + pl + '"><a href="javascript:;">路径<b>' + l + '</b></a></li>');
+
+                                // All path
+                                t = '<div class="paths ' + pl + '" ' + (l == 1 ? '' : 'style="display:none;"') + '>';
+                                t += '  <div class="general_info">';
+                                t += '    <div class="left_info">预计车程&nbsp;' + path.getAllTime() + '&nbsp;分钟</div>';
+                                t += '    <div class="center_info">';
+                                for (var j = 0, arr = path.getLines(); j < arr.length; j++) {
+                                    t += '<span class="linefindcolor_' + arr[j] + '">' + arr[j] + '</span>';
+                                    if (j < arr.length - 1) t += '&nbsp;>&nbsp;';
+                                }
+                                t += '    </div>';
+                                t += '    <div class="right_info">途径共&nbsp;' + path.getStationCount() + '&nbsp;站&nbsp;需换乘&nbsp;' + path.getChangeCount() + '&nbsp;次 </div>';
+                                t += '  </div>';
+
+                                // Change path
+                                t += '<div class="detail_line base_' + l + '" style="height:auto;' + (l == 1 ? '' : 'style="display:none;"') + '">';
+                                t += '  <div class="rightline">';
+                                for (var j = 0, cp = path.getChangePath(); j < cp.length; j++) {
+                                    var s = cp[j],
+                                        line = s.getLine(),
+                                        state = s.getState();
+                                    t += '    <div class="wline' + s.getChangePath() + '">';
+                                    /*
+				 if(s.getLine() == 2 && state!=2){
+				for (var k=0,cp1=path.getDetailChange(); k < cp1.length; k++) {
+              var s1=cp1[k],line=s.getLine();
+			  if(s1.getName()=="广兰路" && s1.getDirection()=="浦东国际机场"){
+			   t+='      <div class="station_start2">';
+			   t+='        <div class="linelu">'+s1.getTime()+'</div>';
+			   t+='           <div class="info_1"><span>广兰路</span><span style="float:left; padding-left:20px; font-size:12px; text-align:left;font-weight:normal">换乘&nbsp;<span class="linefindcolor_2">2</span>&nbsp;乘客需在本站换乘八节编组列车</span></div>';
+			    t+='  </div>';
+			  }
+			  if(s1.getName()=="广兰路" && s1.getDirection()=="徐泾东"){
+			   t+='      <div class="station_start2">';
+			     t+='        <div class="linelu">'+s.getTime()+'</div>';
+				 t+='           <div class="info_1"><span>广兰路</span><span style="float:left; padding-left:20px; font-size:12px; text-align:left;font-weight:normal">乘客需在本站换乘八节编组列车</span></div>';
+				  t+='  </div>';
+			  }
+			  }
+			  }*/
+
+                                    t += '      <div class="station_start' + (state != 1 ? s.getLine() : '') + '">';
+                                    t += '        <div class="linelu">' + s.getTime() + '</div>';
+                                    t += '        <div class="info_1"><span>' + s.getName() + '</span>' + (state == 2 ? '<span style="float:left; padding-left:20px; font-size:12px; text-align:left;font-weight:normal">换乘&nbsp;' + s.getChangeTime() + '&nbsp;分钟 </span>' : '') + '</div>';
+
+                                    t += '        <div class="linecheng">';
+                                    if (s.getDirection() == "上海体育场") {
+                                        t += '          <div class="left-linecheng">' + (state != 1 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> <span>内圈方向</span>') : '') + '</div>';
+                                    } else if (s.getDirection() == "上海体育馆") {
+                                        t += '          <div class="left-linecheng">' + (state != 1 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> <span>外圈方向</span>') : '') + '</div>';
+                                    } else {
+                                        t += '          <div class="left-linecheng">' + (state != 1 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> 通往 <span>' + s.getDirection() + '方向</span>') : '') + '</div>';
+                                    }
+                                    t += '          <div class="right-linecheng">';
+                                    t += '            <span class="aa"><a href="javascript:;" class="smbcskb" p="' + line + '">首末班车时刻表</span>';
+                                    t += '            <span class="interval_line"><img src="/res/images/line/line_4.gif"/></span>';
+                                    t += '            <a class="map_show" href=".path_show_1" n="' + s.getID() + '">周边地图</a>';
+                                    t += '          </div>';
+                                    t += '        </div>';
+                                    t += '      </div>';
+                                    t += '    </div>';
+                                }
+                                t += '  </div>';
+                                t += '</div>';
+
+                                // Detail path start
+                                t += '<div class="detail_line detail_' + l + '" style="height:auto;display:none;" >';
+                                t += '  <div class="rightline">';
+                                for (var j = 0, cp = path.getDetailChange(); j < cp.length; j++) {
+                                    var s = cp[j],
+                                        line = s.getLine(),
+                                        state = s.getState();
+                                    t += '    <div class="' + (state == -1 ? 'linesmall-' + s.getLine() : 'wline' + s.getChangePath()) + '">';
+                                    t += '      <div class="station_start' + (state != 1 ? s.getLine() : '') + '">';
+                                    t += '        <div class="linelu">' + s.getTime() + '</div>';
+                                    t += '        <div class="info_1"><span>' + s.getName() + '</span>' + (state == 2 ? '<span style="float:left; padding-left:20px; font-size:12px; text-align:left;font-weight:normal">换乘&nbsp;' + s.getChangeTime() + '&nbsp;分钟 </span>' : '') + '</div>';
+                                    t += '        <div class="linecheng">';
+                                    if (s.getDirection() == "上海体育场") {
+                                        t += '          <div class="left-linecheng">' + (state == 0 || state == 2 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> 内圈方向</span>') : '') + '</div>';
+                                    } else if (s.getDirection() == "上海体育馆") {
+                                        t += '          <div class="left-linecheng">' + (state == 0 || state == 2 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> 外圈方向</span>') : '') + '</div>';
+                                    } else {
+                                        t += '          <div class="left-linecheng">' + (state == 0 || state == 2 ? ((state == 2 ? '换乘&nbsp;' : '') + '<span class="linefindcolor_' + line + '">' + line + '</span> 通往 <span>' + s.getDirection() + '方向</span>') : '') + '</div>';
+                                    }
+                                    if (s.getName() == "广兰路" && s.getDirection() == "浦东国际机场") {
+                                        t += '          <div class="left-linecheng">换乘&nbsp;<span class="linefindcolor_2">2</span>&nbsp;乘客需在本站换乘四节编组列车</span></div>';
+                                    }
+                                    if (s.getName() == "广兰路" && s.getDirection() == "徐泾东") {
+                                        t += '          <div class="left-linecheng">换乘&nbsp;<span class="linefindcolor_2">2</span>&nbsp;乘客需在本站换乘八节编组列车</span></div>';
+                                    }
+                                    t += '          <div class="right-linecheng">';
+                                    t += '            <span class="aa"><a href="javascript:;" class="smbcskb" p="' + line + '">首末班车时刻表</span>';
+                                    t += '            <span class="interval_line"><img src="/res/images/line/line_4.gif"/></span>';
+                                    t += '            <a class="map_show" href=".path_show_1" n="' + s.getID() + '">周边地图</a>';
+                                    t += '          </div>';
+                                    t += '        </div>';
+                                    t += '      </div>';
+                                    t += '    </div>';
+                                }
+                                t += '  </div>';
+                                t += '</div>';
+                                t += '<div class="detaiqing"><span><a href="javascript:;" class="details" p="' + l + '">详细路径</a><img src="/res/images/temp/xqing.jpg"/></span></div>';
+                                //Detail path end
+
+                                t += '</div>';
+
+                                panel.find('#lines').append(t);
+                            };
+                            th.find("#search_result_detial").html(panel);
+
+                            // 票价
+                            $.ajax({
+                                url: '/i/p',
+                                data: data,
+                                timeout: 30000,
+                                success: function(msg) {
+                                    var d = $.parseJSON(msg);
+                                    if (0 == d.flag) {
+                                        th.find('#pp').html(d.data.p);
+                                    }
+                                }
+                            });
+                            $(opts.rs).html(th);
+
+                            th.find(".pathchoose").click(function() {
+                                $(".pathchoose").removeClass("cur");
+                                $(this).addClass("cur");
+                                $("div.paths").hide();
+                                $("div." + $(this).attr("p")).show();
+                            });
+
+                            th.find(".details").click(function() {
+                                if (th.find(".base_" + $(this).attr("p")).is(":visible")) {
+                                    $(".base_" + $(this).attr("p")).hide();
+                                    $(".detail_" + $(this).attr("p")).show();
+                                    $(this).next().attr("src", "/res/images/temp/xqing1.jpg");
+                                } else {
+                                    $(".detail_" + $(this).attr("p")).hide();
+                                    $(".base_" + $(this).attr("p")).show();
+
+                                    $(this).next().attr("src", "/res/images/temp/xqing.jpg");
+                                }
+                            });
+
+                            th.find(".smbcskb").click(function() {
+                                var p = $(this).attr("p");
+                                window.open(smbcskb[p], '');
+
+                            });
+
+                            $(".map_show").My_box({
+                                cb: function(th) {
+                                    $(".body_div .map").attr("id", "map_canvas");
+                                    $("#map_canvas").bdmap({
+                                        id: th.attr("n")
+                                    });
+                                }
+                            });
+                        },
+                        dn: function(th, opts, d) {
+                            th.find("#search_result_detial").empty().html('<div class="tip">未检索到相关换乘！</div>');
+                        }
+                    });
+                });
+
+                var qs = getQueryString();
+                if (qs.length) {
+                    $('#path_change').trigger("click");
+                }
+            });
+        </script>
+</body>
+
+</html>
