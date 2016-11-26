@@ -1,0 +1,30 @@
+{
+  "name": "shanghai-metro-tgbot",
+  "version": "1.0.0",
+  "description": "A Telegram Bot for consult of Shanghai Metro Tiemtable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dajipai/ShanghaiMetroTGBot.git"
+  },
+  "keywords": [
+    "metro",
+    "shanghai",
+    "telegram",
+    "bot"
+  ],
+  "author": "Megrez Lu <lujiajing1126@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dajipai/ShanghaiMetroTGBot/issues"
+  },
+  "homepage": "https://github.com/dajipai/ShanghaiMetroTGBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.24.0",
+    "scraperjs": "^1.2.0"
+  }
+}
